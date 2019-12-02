@@ -1,0 +1,21 @@
+{
+  "name": "LLContactKit",
+  "version": "1",
+  "summary": "A short description of LLContactKit2.",
+  "homepage": "https://github.com/yuanxinliang/LLContactKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "306619887@qq.com": "306619887@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yuanxinliang/LLContactKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLContactKit/Classes/**/*"
+}

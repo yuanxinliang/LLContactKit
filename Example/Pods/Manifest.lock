@@ -1,0 +1,16 @@
+PODS:
+  - LLContactKit (1)
+
+DEPENDENCIES:
+  - LLContactKit (from `../`)
+
+EXTERNAL SOURCES:
+  LLContactKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLContactKit: 6654a74b24730a1fd09cab09a8814ea54ee02a4c
+
+PODFILE CHECKSUM: 3dd1fcfc63dacb696da5d32102d3058cee3159d4
+
+COCOAPODS: 1.8.4

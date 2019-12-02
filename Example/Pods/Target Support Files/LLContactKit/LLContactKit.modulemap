@@ -1,0 +1,6 @@
+framework module LLContactKit {
+  umbrella header "LLContactKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		124E82F739C83B8D7B82BA42 /* Pods_LLContactKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C51B4C7FA5CB1FB7865A34 /* Pods_LLContactKit_Tests.framework */; };
+		5941EF1D239441FD00FD50B3 /* LLContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5941EF1C239441FD00FD50B3 /* LLContactViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BD5A3C7A4746E1535C2F806 /* LLContactKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLContactKit.podspec; path = ../LLContactKit.podspec; sourceTree = "<group>"; };
+		2BD5A3C7A4746E1535C2F806 /* LLContactKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLContactKit.podspec; path = ../LLContactKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2E7EB0D1F464D1D6DA2B1BF8 /* Pods-LLContactKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLContactKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LLContactKit_Example/Pods-LLContactKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		41C51B4C7FA5CB1FB7865A34 /* Pods_LLContactKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLContactKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4214F1427D3D3DB3C9C320F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4214F1427D3D3DB3C9C320F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		474695B5E4021087DF366805 /* Pods_LLContactKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLContactKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5941EF1B239441FD00FD50B3 /* LLContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLContactViewController.h; path = ../../LLContactKit/Classes/controller/LLContactViewController.h; sourceTree = "<group>"; };
+		5941EF1C239441FD00FD50B3 /* LLContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LLContactViewController.m; path = ../../LLContactKit/Classes/controller/LLContactViewController.m; sourceTree = "<group>"; };
 		5EB0BDD009F4F9F10C249A50 /* Pods-LLContactKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLContactKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLContactKit_Tests/Pods-LLContactKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LLContactKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLContactKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +66,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73C2F248C28EE9B88C6312B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73C2F248C28EE9B88C6312B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C15D7561E8B4E042605343 /* Pods-LLContactKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLContactKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLContactKit_Tests/Pods-LLContactKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEA16C6E2C7F9D5E5EB37820 /* Pods-LLContactKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLContactKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLContactKit_Example/Pods-LLContactKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LLViewController.h */,
 				6003F5A6195388D20070C39A /* LLViewController.m */,
+				5941EF1B239441FD00FD50B3 /* LLContactViewController.h */,
+				5941EF1C239441FD00FD50B3 /* LLContactViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				87C15D7561E8B4E042605343 /* Pods-LLContactKit_Tests.debug.xcconfig */,
 				5EB0BDD009F4F9F10C249A50 /* Pods-LLContactKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -367,6 +372,7 @@
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5941EF1D239441FD00FD50B3 /* LLContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +503,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLContactKit/LLContactKit-Prefix.pch";
 				INFOPLIST_FILE = "LLContactKit/LLContactKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,10 +521,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLContactKit/LLContactKit-Prefix.pch";
 				INFOPLIST_FILE = "LLContactKit/LLContactKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
